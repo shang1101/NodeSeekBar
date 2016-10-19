@@ -1,5 +1,8 @@
 # NodeSeekBar
 A custom seekbar with node-circles on its progress,it can be made as a  radio view, just be the same with  the view in IPHONE
+Show
+------
+![仿IPHONE的NodeSeekBar](https://github.com/shang1101/NodeSeekBar/blob/master/nodeseekbar.gif)
 Download
 --------
 
@@ -73,4 +76,4 @@ License
     limitations under the License.
 FeedBack
 -------
-Any question,please send email to me (920621870@qq.com).
+any question,please send email to me (920621870@qq.com).
