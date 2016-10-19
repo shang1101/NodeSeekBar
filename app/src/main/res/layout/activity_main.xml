@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:shang="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shang.nodeseekbardemo.MainActivity">
+
+     <com.shang.nodeseekbar.NodeSeekBar
+          android:id="@+id/nodeseekbar"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="50dp"
+         android:minHeight="5dp"
+         android:maxHeight="5dp"
+         android:max="100"
+         android:thumb="@drawable/thumb"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+     <com.shang.nodeseekbar.NodeSeekBar
+         android:layout_below="@+id/nodeseekbar"
+         android:id="@+id/attr_nodeseekbar"
+          android:layout_marginTop="100dp"
+         android:minHeight="1dp"
+         android:maxHeight="1dp"
+         android:max="100"
+         android:progressDrawable="@drawable/seekbar_bg"
+         android:thumb="@drawable/thumb"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         shang:node_radius="10"
+         shang:node_color="#132123"
+         shang:node_number="6"/>
+</RelativeLayout>
