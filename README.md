@@ -21,6 +21,7 @@ compile 'com.shang.designview:nodeseekbar:1.0.0'
 ```
 or Eclipse:
    Go home,you are drunked!
+   
 Usage
 ------
 in xml:
